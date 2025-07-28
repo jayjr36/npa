@@ -1,0 +1,346 @@
+ [
+  {
+    "region": "Dodoma",
+    "councils": [
+      {
+        "name": "Dodoma City Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 38.4,
+          "25-34": 66.3,
+          "35-44": 72.4,
+          "45+": 50.9
+        },
+        "number_of_community_members_reached": 1200,
+        "number_of_vawc_cases_committed_in_public": 45,
+        "number_of_law_enforcement_agents_trained": 35,
+        "number_of_women_who_sought_help": 210,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 18,
+          "peer_support_groups": 12,
+          "school_counselor": 8
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 85.0
+      },
+      {
+        "name": "Bahi District Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 28.7,
+          "25-34": 55.1,
+          "35-44": 60.2,
+          "45+": 42.5
+        },
+        "number_of_community_members_reached": 750,
+        "number_of_vawc_cases_committed_in_public": 20,
+        "number_of_law_enforcement_agents_trained": 20,
+        "number_of_women_who_sought_help": 130,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 10,
+          "peer_support_groups": 5,
+          "school_counselor": 4
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 78.0
+      }
+    ]
+  },
+  {
+    "region": "Mwanza",
+    "councils": [
+      {
+        "name": "Ilemela Municipal Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 42.1,
+          "25-34": 70.3,
+          "35-44": 75.8,
+          "45+": 53.4
+        },
+        "number_of_community_members_reached": 1100,
+        "number_of_vawc_cases_committed_in_public": 33,
+        "number_of_law_enforcement_agents_trained": 30,
+        "number_of_women_who_sought_help": 198,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 16,
+          "peer_support_groups": 10,
+          "school_counselor": 7
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 88.0
+      },
+      {
+        "name": "Nyamagana Municipal Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 40.6,
+          "25-34": 68.2,
+          "35-44": 73.5,
+          "45+": 51.0
+        },
+        "number_of_community_members_reached": 950,
+        "number_of_vawc_cases_committed_in_public": 29,
+        "number_of_law_enforcement_agents_trained": 28,
+        "number_of_women_who_sought_help": 185,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 14,
+          "peer_support_groups": 9,
+          "school_counselor": 5
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 83.0
+      }
+    ]
+  },
+  {
+    "region": "Arusha",
+    "councils": [
+      {
+        "name": "Arusha City Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 44.2,
+          "25-34": 72.0,
+          "35-44": 76.3,
+          "45+": 56.1
+        },
+        "number_of_community_members_reached": 1050,
+        "number_of_vawc_cases_committed_in_public": 40,
+        "number_of_law_enforcement_agents_trained": 32,
+        "number_of_women_who_sought_help": 200,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 15,
+          "peer_support_groups": 11,
+          "school_counselor": 9
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 84.0
+      },
+      {
+        "name": "Meru District Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 35.9,
+          "25-34": 60.8,
+          "35-44": 67.2,
+          "45+": 49.5
+        },
+        "number_of_community_members_reached": 820,
+        "number_of_vawc_cases_committed_in_public": 22,
+        "number_of_law_enforcement_agents_trained": 21,
+        "number_of_women_who_sought_help": 145,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 11,
+          "peer_support_groups": 7,
+          "school_counselor": 5
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 79.5
+      }
+    ]
+  },
+  {
+    "region": "Mbeya",
+    "councils": [
+      {
+        "name": "Mbeya City Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 41.8,
+          "25-34": 69.4,
+          "35-44": 74.1,
+          "45+": 52.6
+        },
+        "number_of_community_members_reached": 1020,
+        "number_of_vawc_cases_committed_in_public": 31,
+        "number_of_law_enforcement_agents_trained": 29,
+        "number_of_women_who_sought_help": 172,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 13,
+          "peer_support_groups": 10,
+          "school_counselor": 6
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 82.0
+      },
+      {
+        "name": "Rungwe District Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 33.6,
+          "25-34": 57.9,
+          "35-44": 63.4,
+          "45+": 45.2
+        },
+        "number_of_community_members_reached": 890,
+        "number_of_vawc_cases_committed_in_public": 19,
+        "number_of_law_enforcement_agents_trained": 23,
+        "number_of_women_who_sought_help": 138,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 9,
+          "peer_support_groups": 6,
+          "school_counselor": 4
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 77.0
+      }
+    ]
+  },
+  {
+    "region": "Tanga",
+    "councils": [
+      {
+        "name": "Tanga City Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 39.5,
+          "25-34": 67.2,
+          "35-44": 71.8,
+          "45+": 49.6
+        },
+        "number_of_community_members_reached": 950,
+        "number_of_vawc_cases_committed_in_public": 28,
+        "number_of_law_enforcement_agents_trained": 27,
+        "number_of_women_who_sought_help": 180,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 14,
+          "peer_support_groups": 9,
+          "school_counselor": 7
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 81.0
+      },
+      {
+        "name": "Muheza District Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 30.4,
+          "25-34": 54.3,
+          "35-44": 59.8,
+          "45+": 41.2
+        },
+        "number_of_community_members_reached": 700,
+        "number_of_vawc_cases_committed_in_public": 18,
+        "number_of_law_enforcement_agents_trained": 19,
+        "number_of_women_who_sought_help": 122,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 8,
+          "peer_support_groups": 4,
+          "school_counselor": 3
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 74.0
+      }
+    ]
+  },
+  {
+    "region": "Kilimanjaro",
+    "councils": [
+      {
+        "name": "Moshi Municipal Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 43.2,
+          "25-34": 71.5,
+          "35-44": 76.0,
+          "45+": 55.1
+        },
+        "number_of_community_members_reached": 1075,
+        "number_of_vawc_cases_committed_in_public": 36,
+        "number_of_law_enforcement_agents_trained": 31,
+        "number_of_women_who_sought_help": 205,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 16,
+          "peer_support_groups": 10,
+          "school_counselor": 6
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 87.5
+      },
+      {
+        "name": "Hai District Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 34.1,
+          "25-34": 60.4,
+          "35-44": 66.7,
+          "45+": 48.3
+        },
+        "number_of_community_members_reached": 810,
+        "number_of_vawc_cases_committed_in_public": 24,
+        "number_of_law_enforcement_agents_trained": 22,
+        "number_of_women_who_sought_help": 150,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 10,
+          "peer_support_groups": 6,
+          "school_counselor": 4
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 80.0
+      }
+    ]
+  },
+  {
+    "region": "Morogoro",
+    "councils": [
+      {
+        "name": "Morogoro Municipal Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 40.2,
+          "25-34": 68.5,
+          "35-44": 73.0,
+          "45+": 51.8
+        },
+        "number_of_community_members_reached": 1010,
+        "number_of_vawc_cases_committed_in_public": 30,
+        "number_of_law_enforcement_agents_trained": 28,
+        "number_of_women_who_sought_help": 190,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 13,
+          "peer_support_groups": 8,
+          "school_counselor": 5
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 84.0
+      },
+      {
+        "name": "Kilosa District Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 32.7,
+          "25-34": 56.8,
+          "35-44": 62.5,
+          "45+": 44.7
+        },
+        "number_of_community_members_reached": 875,
+        "number_of_vawc_cases_committed_in_public": 21,
+        "number_of_law_enforcement_agents_trained": 24,
+        "number_of_women_who_sought_help": 143,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 9,
+          "peer_support_groups": 5,
+          "school_counselor": 3
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 76.0
+      }
+    ]
+  },
+  {
+    "region": "Mtwara",
+    "councils": [
+      {
+        "name": "Mtwara-Mikindani Municipal Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 36.9,
+          "25-34": 62.3,
+          "35-44": 68.9,
+          "45+": 46.5
+        },
+        "number_of_community_members_reached": 920,
+        "number_of_vawc_cases_committed_in_public": 26,
+        "number_of_law_enforcement_agents_trained": 26,
+        "number_of_women_who_sought_help": 168,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 12,
+          "peer_support_groups": 7,
+          "school_counselor": 4
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 80.0
+      },
+      {
+        "name": "Newala Town Council",
+        "percentage_of_women_with_bank_access": {
+          "15-24": 29.8,
+          "25-34": 51.7,
+          "35-44": 58.2,
+          "45+": 40.3
+        },
+        "number_of_community_members_reached": 680,
+        "number_of_vawc_cases_committed_in_public": 17,
+        "number_of_law_enforcement_agents_trained": 18,
+        "number_of_women_who_sought_help": 112,
+        "number_of_schools_with_reporting_mechanisms_by_type": {
+          "suggestion_box": 7,
+          "peer_support_groups": 3,
+          "school_counselor": 2
+        },
+        "percentage_of_npa_vawc_coordinators_capacitated": 72.0
+      }
+    ]
+  }
+]
