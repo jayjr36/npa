@@ -27,12 +27,12 @@ export default function VAWCCases() {
   );
 
   return (
-    <div>
-      <h1 className="text-2xl font-bold">Public VAWC Cases</h1>
+    <div className="p-6">
+      <h1 className="text-2xl font-bold mb-4">Safe Environment in Public Spaces</h1>
       <ExecutiveSummary
         indicator="number_of_vawc_cases_committed_in_public"
         target={600000}
-        title="VAWC Cases Committed in Public"
+        thematicArea="Safe Environment in Public Spaces"
       />
       <StackedRegionChart
         data={regionCouncilData}
@@ -40,7 +40,7 @@ export default function VAWCCases() {
         onBarClick={handleRegionClick}
       />
       {selectedRegion && selectedRegionData && (
-        <div className="mt-8">
+        <div className="mt-8 bg-white p-3">
           <h2 className="text-xl font-semibold mb-2">
             Council Contributions in {selectedRegion}
           </h2>

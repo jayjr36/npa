@@ -28,21 +28,22 @@ export default function WomenWhoSoughtHelp() {
 
 
   return (
-    <div>
-      <h1 className="text-2xl font-bold">Women Who Sought Help</h1>
+    <div className="p-6">
+      <h1 className="text-2xl font-bold mb-4">Response and Supportive Services</h1>
 
       <ExecutiveSummary
         indicator="number_of_women_who_sought_help"
         target={1000000}
-        title="Women Who Sought Help"
+        thematicArea="Response and Supportive Services"
       />
+
       <StackedRegionChart
         data={regionCouncilData}
         indicator="Women Who Sought Help"
          onBarClick={handleRegionClick}
         />
       {selectedRegion && selectedRegionData && (
-        <div className="mt-8">
+        <div className="mt-8 bg-white p-3">
           <h2 className="text-xl font-semibold mb-2">
             Council Contributions in {selectedRegion}
           </h2>

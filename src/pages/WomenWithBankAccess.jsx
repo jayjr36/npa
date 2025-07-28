@@ -13,7 +13,7 @@ import {
   Cell
 } from "recharts";
 import ExecutiveSummary from "../components/ExecutiveSummary";
-
+import ExecutiveSummaryBankAccess from "../components/ExecutiveSummaryBankAccess";
 
 export default function WomenWithBankAccess() {
   const [selectedRegion, setSelectedRegion] = useState(null);
@@ -46,14 +46,12 @@ export default function WomenWithBankAccess() {
     }));
 
   return (
-    <div>
-      <h1 className="text-2xl font-bold mb-4">Women With Bank Access</h1>
+    <div className="p-6">
+      <h1 className="text-2xl font-bold mb-4">Household Economic Strengthening</h1>
+      <ExecutiveSummaryBankAccess target={500000} title="Women With Bank Access" />
 
       {/* Regional Bar Chart */}
       <div className="bg-white rounded shadow p-4">
-        <h2 className="text-lg font-semibold mb-2">Regional Averages by Age Group</h2>
-      
-
         <ResponsiveContainer width="100%" height={400}>
           <BarChart
             data={regionAverages}

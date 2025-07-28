@@ -27,11 +27,11 @@ export default function CommunityMembersReached() {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Community Members Reached</h1>
+      <h1 className="text-2xl font-bold mb-4">Parenting, Family Support and Relationship</h1>
       <ExecutiveSummary
-        indicator="number_of_community_members_reached"
         target={1000000}
-        title="Community Members Reached"
+        indicator="number_of_community_members_reached"
+        thematicArea="Parenting, Family Support and Relationship"
       />
       <StackedRegionChart
         data={regionCouncilData}
@@ -40,7 +40,7 @@ export default function CommunityMembersReached() {
       />
 
       {selectedRegion && selectedRegionData && (
-        <div className="mt-8">
+        <div className="mt-8 bg-white p-3">
           <h2 className="text-xl font-semibold mb-2">
             Council Contributions in {selectedRegion}
           </h2>

@@ -30,12 +30,12 @@ export default function CoordinatorsCapacitated() {
 
 
   return (
-    <div>
-      <h1 className="text-2xl font-bold">NPA-VAWC Coordinators Capacitated</h1>
+    <div className="p-6">
+      <h1 className="text-2xl font-bold mb-4">Coordination, Monitoring and Evaluation</h1>
       <ExecutiveSummary
         indicator="percentage_of_npa_vawc_coordinators_capacitated"
         target={1000000}
-        title="Coordinators Capacitated"
+        thematicArea="Coordination, Monitoring and Evaluation"
       />
       <StackedRegionChart
         data={regionCouncilData}
@@ -44,7 +44,7 @@ export default function CoordinatorsCapacitated() {
       />
 
       {selectedRegion && selectedRegionData && (
-        <div className="mt-8">
+        <div className="mt-8 bg-white p-3">
           <h2 className="text-xl font-semibold mb-2">
             Council Contributions in {selectedRegion}
           </h2>
