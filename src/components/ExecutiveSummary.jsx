@@ -78,12 +78,12 @@ export default function ExecutiveSummary({ thematicArea, target }) {
 
   const progressColor =
     percentNum >= 100
-      ? "bg-green-600"
+      ? "bg-blue-600"
       : percentNum >= 75
         ? "bg-blue-600"
         : percentNum >= 50
-          ? "bg-yellow-500"
-          : "bg-red-500";
+          ? "bg-blue-600"
+          : "bg-blue-600";
 
   return (
     <div className="bg-white border border-gray-200 shadow-md rounded-lg p-6 mb-6 transition hover:shadow-lg">

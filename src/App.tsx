@@ -13,7 +13,7 @@ import WomenWhoSoughtHelp from "./pages/WomenWhoSoughtHelp";
 export default function App() {
   return (
     <Router>
-      <div className="flex min-h-screen bg-gray-100">
+      <div className="flex min-h-screen bg-gray-100 font-sans">
         <Sidebar />
         <div className="flex-1 p-4 overflow-y-auto">
           <Routes>
