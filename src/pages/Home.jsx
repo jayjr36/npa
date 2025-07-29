@@ -18,7 +18,7 @@ export default function Home() {
     <div className="p-6 space-y-10">
       {/* Header and Introduction */}
       <div className="bg-white shadow border border-gray-200 rounded-lg p-6">
-        <h1 className="text-3xl font-bold text-primary mb-2">NPA-VAWC Dashboard</h1>
+        <h1 className="text-3xl font-bold text-primary mb-2">Dashboard</h1>
         <p className="text-gray-700 mb-2">
           Welcome to the National Plan of Action to End Violence Against Women and Children (NPA-VAWC) dashboard.
           This platform provides data-driven insights from regions and councils across Tanzania to support strategic decision-making and coordination.

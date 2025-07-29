@@ -26,14 +26,14 @@ function ExecutiveSummary({ totals, title, target }) {
     percentNum >= 100
       ? "bg-blue-600"
       : percentNum >= 75
-      ? "bg-blue-600"
-      : percentNum >= 50
-      ? "bg-blue-600"
-      : "bg-blue-600";
+        ? "bg-blue-600"
+        : percentNum >= 50
+          ? "bg-blue-600"
+          : "bg-blue-600";
 
   return (
     <div className="bg-white border border-gray-200 shadow-md rounded-lg p-6 mb-6">
-            <label className="block mb-3 text-sm font-medium text-gray-700">
+      <label className="block mb-3 text-sm font-medium text-gray-700">
         Select Indicator:
         <select
           className="mt-1 block w-full border rounded-md p-2 border-gray-300 focus:ring focus:ring-blue-200"
