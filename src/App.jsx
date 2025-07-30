@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
-import Home from "./pages/Home";
-import WomenWithBankAccess from "./pages/WomenWithBankAccess";
-import CommunityMembersReached from "./pages/CommunityMembersReached";
-import CoordinatorsCapacitated from "./pages/CoordinatorsCapacitated";
-import LawEnforcementAgentsTrained from "./pages/LawEnforcementAgentsTrained";
-import SchoolsWithMechanisms from "./pages/SchoolWithMechanisms";
-import VAWCCases from "./pages/VAWCCases";
-import WomenWhoSoughtHelp from "./pages/WomenWhoSoughtHelp";
-import DataCollectionForm from "./pages/DataCollectionForm";
-import ThematicConfigPage from "./pages/ThematicConfigPage";
+import Sidebar from "@/components/Sidebar";
+import Home from "@/pages/Home";
+import WomenWithBankAccess from "@/pages/WomenWithBankAccess";
+import CommunityMembersReached from "@/pages/CommunityMembersReached";
+import CoordinatorsCapacitated from "@/pages/CoordinatorsCapacitated";
+import LawEnforcementAgentsTrained from "@/pages/LawEnforcementAgentsTrained";
+import SchoolsWithMechanisms from "@/pages/SchoolWithMechanisms";
+import VAWCCases from "@/pages/VAWCCases";
+import WomenWhoSoughtHelp from "@/pages/WomenWhoSoughtHelp";
+import DataCollectionForm from "@/pages/DataCollectionForm";
+import ThematicConfigPage from "@/pages/ThematicConfigPage";
 
 
 export default function App() {
