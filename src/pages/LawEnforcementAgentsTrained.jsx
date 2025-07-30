@@ -30,11 +30,11 @@ export default function LawEnforcementAgentsTrained() {
 
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-4">Law Enforcement Agents</h1>
+      <h1 className="text-2xl font-bold mb-4">Implementation and Enforcement of Laws</h1>
       <ExecutiveSummary
         indicator="number_of_law_enforcement_agents_trained"
         target={500000}
-        thematicArea="Law Enforcement Agents"
+        thematicArea="Implementation and Enforcement of Laws"
       />
       <StackedRegionChart
         data={regionCouncilData}

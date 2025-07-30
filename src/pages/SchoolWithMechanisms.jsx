@@ -117,7 +117,11 @@ export default function SchoolsWithMechanisms() {
         >
           <XAxis dataKey="region" />
           <YAxis />
-          <Tooltip />
+          <Tooltip
+            contentStyle={{ backgroundColor: "white", color: "#000" }}
+            itemStyle={{ color: "#000" }}
+            labelStyle={{ color: "#000" }}
+          />
           <Legend />
           <Bar dataKey="suggestion_box" fill="#8884d8" />
           <Bar dataKey="peer_support_groups" fill="#82ca9d" />

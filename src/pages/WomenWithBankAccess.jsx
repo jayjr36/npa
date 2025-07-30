@@ -95,7 +95,11 @@ export default function WomenWithBankAccess() {
                         <Cell key={i} fill={entry.fill} />
                       ))}
                     </Pie>
-                    <Tooltip />
+                    <Tooltip
+                      contentStyle={{ backgroundColor: "white", color: "#000" }}
+                      itemStyle={{ color: "#000" }}
+                      labelStyle={{ color: "#000" }}
+                    />
                   </PieChart>
                 </ResponsiveContainer>
               </div>

@@ -18,7 +18,11 @@ export default function StackedRegionChart({ data, indicator, onBarClick }) {
         >
           <XAxis dataKey="region" />
           <YAxis />
-          <Tooltip />
+          <Tooltip
+            contentStyle={{ backgroundColor: "white", color: "#000" }}
+            itemStyle={{ color: "#000" }}
+            labelStyle={{ color: "#000" }}
+          />
           {/* <Tooltip labelStyle={color: "black"} /> */}
           {/* Legend removed intentionally */}
           {councilKeys.map((council, index) => (

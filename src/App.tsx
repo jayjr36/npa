@@ -8,6 +8,8 @@ import LawEnforcementAgentsTrained from "./pages/LawEnforcementAgentsTrained";
 import SchoolsWithMechanisms from "./pages/SchoolWithMechanisms";
 import VAWCCases from "./pages/VAWCCases";
 import WomenWhoSoughtHelp from "./pages/WomenWhoSoughtHelp";
+import DataCollectionForm from "./pages/DataCollectionForm";
+import ThematicConfigPage from "./pages/ThematicConfigPage";
 
 
 export default function App() {
@@ -25,7 +27,8 @@ export default function App() {
             <Route path="/school-mechanisms" element={<SchoolsWithMechanisms/>} />
             <Route path="/vawc-cases" element={<VAWCCases/>}/>
             <Route path="/women-help" element={<WomenWhoSoughtHelp/>}/>
-            
+            <Route path="/data-collection" element={<DataCollectionForm/>} />
+            <Route path="/thematic-config" element={<ThematicConfigPage/>} />
           </Routes>
         </div>
       </div>

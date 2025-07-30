@@ -9,6 +9,10 @@ const indicatorsByThematicArea = {
         "Percentage of NPA VAWC Coordinators capacitated to coordinate and report on implementation of VAWC interventions",
       value: "percentage_of_npa_vawc_coordinators_capacitated",
     },
+    {
+      label: "Budgetary allocation for VAWC",
+      value: "budgetary_allocation_for_vawc",
+    }
   ],
   "Household Economic Strengthening": [
     {
@@ -16,44 +20,77 @@ const indicatorsByThematicArea = {
         "Percentage of women with a bank account (disaggregated by age and location)",
       value: "percentage_of_women_with_bank_access",
     },
+    {
+      label: "Number of women participating in women's economic empowerment platforms",
+      value: "number_of_women_participating_in_womens_economic_empowerment_platforms",
+    },
+    {
+      label: "Number of women accessing vocational training, disaggregated by age, disability, and location",
+      value: "number_of_women_accessing_vocational_training",
+    }
   ],
   "Safe Environment in Public Spaces": [
     {
       label: "Number of VAWC cases committed in public",
       value: "number_of_vawc_cases_committed_in_public",
     },
+    {
+      label: "Percentage of Registered Public Spaces with Gender Desks",
+      value: "percentage_of_registered_public_spaces_with_gender_desks",
+    }
   ],
   "Parenting, Family Support and Relationship": [
     {
       label:
-        "Number of community members reached through structured awareness-raising sessions on positive social norms",
+        "Number of community with ECD centers",
       value: "number_of_community_members_reached",
     },
   ],
-  "Law Enforcement Agents": [
+  "Implementation and Enforcement of Laws": [
     {
       label:
-        "Number of law enforcement agents and other personnel trained to deliver equitable and integrated legal services",
+        "Number of law enforcement agents and other personel  trained to deliver equitable and integrated legal services",
       value: "number_of_law_enforcement_agents_trained",
     },
+    {
+      label: "Percentage of VAWC cases determined/concluded by courts within the timelines",
+      value: "percentage_of_vawc_cases_determined_by_courts",
+    }
   ],
   "Response and Supportive Services": [
     {
       label: "Number of women who have experienced violence and sought help",
       value: "number_of_women_who_sought_help",
     },
+    {
+      label: "Number of children experienced sexual violence and seek help",
+      value: "number_of_children_who_sought_help",
+    },
+    {
+      label: "Proportion of healthcare facilities offering specialized VAWC services",
+      value: "proportion_of_healthcare_facilities_offering_specialized_vawc_services",
+    }
   ],
   "Safe Education/Learning Environment and Life Skills": [
     {
       label:
-        "Number of schools that established confidential and safe reporting mechanisms (all types)",
+        "Number of schools that established confidential and safe reporting mechanisms by type of mechanism",
       value: "number_of_schools_with_reporting_mechanisms_by_type",
     },
+    {
+      label: "Number of schools that established disability-friendly facilities",
+      value: "number_of_schools_with_disability_friendly_facilities",
+    },
+    {
+      label: "Number of educational institutions  with food programs for students in both primary and secondary schools",
+      value: "number_of_schools_with_food_programs",
+    }
   ],
 };
 
 export default function ExecutiveSummary({ thematicArea, target }) {
   const indicatorOptions = useMemo(() => indicatorsByThematicArea[thematicArea] || [], [thematicArea]);
+  const [selectedQuarter, setSelectedQuarter] = useState("");
 
   const [selectedIndicator, setSelectedIndicator] = useState(
     indicatorOptions[0]?.value || ""
@@ -87,20 +124,39 @@ export default function ExecutiveSummary({ thematicArea, target }) {
 
   return (
     <div className="bg-white border border-gray-200 shadow-md rounded-lg p-6 mb-6 transition hover:shadow-lg">
-      <label className="block mb-3 text-sm font-medium text-gray-700">
-        Select Indicator:
-        <select
-          className="mt-1 block w-full border rounded-md p-2 border-gray-300 focus:ring focus:ring-blue-200"
-          value={selectedIndicator}
-          onChange={(e) => setSelectedIndicator(e.target.value)}
-        >
-          {indicatorOptions.map((opt) => (
-            <option key={opt.value} value={opt.value}>
-              {opt.label}
-            </option>
-          ))}
-        </select>
-      </label>
+      <div className="flex items-end justify-between gap-4 mb-5">
+        {/* Indicator Dropdown */}
+        <label className="flex-1 text-sm font-medium text-gray-700">
+          Select Indicator:
+          <select
+            className="mt-1 block w-full border rounded-md p-2 border-gray-300 focus:ring focus:ring-blue-200 text-xs"
+            value={selectedIndicator}
+            onChange={(e) => setSelectedIndicator(e.target.value)}
+          >
+            {indicatorOptions.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        {/* Quartile Dropdown */}
+        <label className="w-40 text-sm font-medium text-gray-700">
+          Select Period:
+          <select
+            className="mt-1 block w-full border rounded-md p-2 border-gray-300 focus:ring focus:ring-blue-200 text-xs"
+            value={selectedQuarter}
+            onChange={(e) => setSelectedQuarter(e.target.value)}
+          >
+            <option value="">Select Quartile</option>
+            <option value="Q1">Q1 (Jan–Mar)</option>
+            <option value="Q2">Q2 (Apr–Jun)</option>
+            <option value="Q3">Q3 (Jul–Sep)</option>
+            <option value="Q4">Q4 (Oct–Dec)</option>
+          </select>
+        </label>
+      </div>
 
       <div className="space-y-2 text-sm text-gray-600">
         <div className="flex justify-between">

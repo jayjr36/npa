@@ -24,9 +24,9 @@
       {
         "name": "Bahi District Council",
         "percentage_of_women_with_bank_access": {
-          "15-24": 28.7,
-          "25-34": 55.1,
-          "35-44": 60.2,
+          "15-24": 28,
+          "25-34": 55,
+          "35-44": 60,
           "45+": 42.5
         },
         "number_of_community_members_reached": 750,
@@ -48,10 +48,10 @@
       {
         "name": "Ilemela Municipal Council",
         "percentage_of_women_with_bank_access": {
-          "15-24": 42.1,
-          "25-34": 70.3,
-          "35-44": 75.8,
-          "45+": 53.4
+          "15-24": 42,
+          "25-34": 70,
+          "35-44": 75,
+          "45+": 53
         },
         "number_of_community_members_reached": 1100,
         "number_of_vawc_cases_committed_in_public": 33,
@@ -67,10 +67,10 @@
       {
         "name": "Nyamagana Municipal Council",
         "percentage_of_women_with_bank_access": {
-          "15-24": 40.6,
-          "25-34": 68.2,
-          "35-44": 73.5,
-          "45+": 51.0
+          "15-24": 40,
+          "25-34": 68,
+          "35-44": 73,
+          "45+": 51
         },
         "number_of_community_members_reached": 950,
         "number_of_vawc_cases_committed_in_public": 29,
