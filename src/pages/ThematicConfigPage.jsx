@@ -15,17 +15,18 @@ const initialData = [
           "Facilitate the establishment of women's savings groups",
           "Follow-ups"
         ]
-      },
-      {
-        id: 102,
-        name: "Number of women accessing vocational training",
-        target: 3000,
-        showActivities: true,
-        activities: [
-          "Facilitate enrollment of women in VETA",
-          "Promote skill-building workshops"
-        ]
       }
+      // ,
+      // {
+      //   id: 102,
+      //   name: "Number of women accessing vocational training",
+      //   target: 3000,
+      //   showActivities: true,
+      //   activities: [
+      //     "Facilitate enrollment of women in VETA",
+      //     "Promote skill-building workshops"
+      //   ]
+      // }
     ]
   }
 ];
